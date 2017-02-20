@@ -40,12 +40,10 @@ public class JavaApplication1 {
     
     System.out.println("nombre de pasajeros");
     String [] nombres=carro.getpassangers();
-   for
-    
-    
-    
-       
+   for(int i=0;i< nombres.length;i++){
+   System.out.println(nombres[i]);
+   }
+           
     }
-  
-    
+     
 }
