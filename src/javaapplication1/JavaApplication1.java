@@ -38,8 +38,8 @@ public class JavaApplication1 {
     carro.setOtherpassanger(pasajero2);
     carro.setDriver(conductor);
     
-    System.out.println("nombre de pasajeros");
-    String [] nombres=carro.getpassangers();
+   System.out.println("nombre de pasajeros");
+   String [] nombres=carro.getpassangers();
    for(int i=0;i< nombres.length;i++){
    System.out.println(nombres[i]);
    }

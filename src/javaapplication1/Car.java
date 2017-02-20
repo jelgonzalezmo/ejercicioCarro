@@ -43,6 +43,7 @@ public class Car {
  String[] names =new String[2];
  names[0]=this.passangers.getName();
  names[1]=this.otherpassanger.getName();
+ 
  return names;
  }
 
